@@ -1,0 +1,2 @@
+# Getting-started-with-blazor-file-manager
+The Blazor File Manager is a graphical user interface component for managing the file system that allows users to perform most common file operations like accessing, editing, and sorting files or folders. This component also provides easy navigation for browsing folders to select a file or folder from the file system. This quick-start Blazor server app project will help you to learn how to configure and add the Blazor FileManager to it.
