@@ -6,17 +6,10 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Text.RegularExpressions;
-
-
-#if EJ2_DNX
-using System.Web.Mvc;
-using System.IO.Packaging;
-using System.Web;
-#else
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
-#endif
+
 namespace Syncfusion.EJ2.FileManager.Base
 {
     public interface FileProviderBase
@@ -29,11 +22,11 @@ namespace Syncfusion.EJ2.FileManager.Base
 
         FileManagerResponse Delete(string path, string[] names, params FileManagerDirectoryContent[] data);
 
-        FileManagerResponse Rename(string path, string name, string newName, bool replace = false, params FileManagerDirectoryContent[] data);
+        FileManagerResponse Rename(string path, string name, string newName, bool replace = false, bool showFileExtension = true, params FileManagerDirectoryContent[] data);
 
-        FileManagerResponse Copy(string path, string targetPath, string[] names, string[] renameFiles, FileManagerDirectoryContent TargetData, params FileManagerDirectoryContent[] data);
+        FileManagerResponse Copy(string path, string targetPath, string[] names, string[] renameFiles, FileManagerDirectoryContent targetData, params FileManagerDirectoryContent[] data);
 
-        FileManagerResponse Move(string path, string targetPath, string[] names, string[] renameFiles, FileManagerDirectoryContent TargetData, params FileManagerDirectoryContent[] data);
+        FileManagerResponse Move(string path, string targetPath, string[] names, string[] renameFiles, FileManagerDirectoryContent targetData, params FileManagerDirectoryContent[] data);
 
         FileManagerResponse Search(string path, string searchString, bool showHiddenItems, bool caseSensitive, params FileManagerDirectoryContent[] data);
 

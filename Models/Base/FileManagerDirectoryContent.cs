@@ -1,15 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-#if EJ2_DNX
-using System.Web.Mvc;
-using System.IO.Packaging;
-using System.Web;
-#else
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Net.Http.Headers;
-#endif
+
 
 namespace Syncfusion.EJ2.FileManager.Base
 {
@@ -22,7 +14,7 @@ namespace Syncfusion.EJ2.FileManager.Base
         public string NewName { get; set; }
 
         public string[] Names { get; set; }
-		
+
         public string Name { get; set; }
 
         public long Size { get; set; }
@@ -44,25 +36,22 @@ namespace Syncfusion.EJ2.FileManager.Base
         public string FilterPath { get; set; }
 
         public string FilterId { get; set; }
-		
-		public string ParentId { get; set; }
+
+        public string ParentId { get; set; }
 
         public string TargetPath { get; set; }
 
         public string[] RenameFiles { get; set; }
 
-#if EJ2_DNX
-             public IList<System.Web.HttpPostedFileBase> UploadFiles { get; set; }
-#else
         public IList<IFormFile> UploadFiles { get; set; }
-#endif
 
         public bool CaseSensitive { get; set; }
-
 
         public string SearchString { get; set; }
 
         public bool ShowHiddenItems { get; set; }
+
+        public bool ShowFileExtension { get; set; }
 
         public FileManagerDirectoryContent[] Data { get; set; }
 

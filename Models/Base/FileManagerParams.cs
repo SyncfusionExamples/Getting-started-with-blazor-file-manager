@@ -28,6 +28,6 @@ namespace Syncfusion.EJ2.FileManager.Base
         public IEnumerable<IFormFile> FileUpload { get; set; }
 
 #endif
-        public string[] RenameFiles { get; set; }
+        public string[] ReplacedItemNames { get; set; }
     }
 }

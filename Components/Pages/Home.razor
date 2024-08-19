@@ -1,0 +1,9 @@
+﻿@page "/"
+
+@rendermode InteractiveServer
+
+<SfFileManager TValue="FileManagerDirectoryContent">
+    <FileManagerAjaxSettings Url="https://localhost:7015/api/FileManager/FileOperations"
+                             DownloadUrl="https://localhost:7015/api/FileManager/Download">
+    </FileManagerAjaxSettings>
+</SfFileManager>
