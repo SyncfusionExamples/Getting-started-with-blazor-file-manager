@@ -1,7 +1,7 @@
 # How to Add a Blazor File Manager to the Blazor Server App?
 
 **Repository Description**  
-This repository contains a Blazor Server sample that demonstrates how to configure and add the Syncfusion **Blazor File Manager** component to a Blazor Server application. The File Manager provides a graphical user interface for managing files and folders, including browsing, editing, sorting, and performing common file operations.
+This repository contains a Blazor Server sample that demonstrates how to configure and add the Syncfusion **[Blazor File Manager](https://www.syncfusion.com/blazor-components/blazor-file-manager?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)** component to a Blazor Server application. The File Manager provides a graphical user interface for managing files and folders, including browsing, editing, sorting, and performing common file operations.
 
 The sample serves as a quick‑start project to help developers understand how to integrate the Blazor File Manager and manage the file system within a Blazor Server environment.
 
@@ -19,7 +19,7 @@ The navigation pane allows quick and direct access to a file or folder in a file
 ### Content pane
 The content pane displays the files and folders in the file system. The files in the content pane can be displayed in either large icons view or details view.
 ### File operations
-The Blazor File Manager component includes all the common [operations](https://blazor.syncfusion.com/documentation/file-manager/file-operations/?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples) needed for managing a file system. It includes copy, move, upload, download, edit, create, delete, and sort.
+The Blazor File Manager component includes all the common [operations](https://blazor.syncfusion.com/documentation/file-manager/file-operations?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples) needed for managing a file system. It includes copy, move, upload, download, edit, create, delete, and sort.
 ### File upload and download
 The Blazor File Manager component allows the easy uploading and downloading of files in a file system.
 ### Sorting
@@ -27,19 +27,19 @@ Files and folders in the file system can be sorted in either ascending or descen
 ### Searching
 The Blazor File Manager component contains built-in searching functionality that allows you to search for and access a file or folder in the current path and its child folders.
 ### Moving files and folders with drag and drop
-Files and folders can be moved within the file system by dragging and dropping them. [Drag-and-drop](https://blazor.syncfusion.com/documentation/file-manager/drag-and-drop/?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples) support can be turned on or off in the Blazor File Manager.
+Files and folders can be moved within the file system by dragging and dropping them. [Drag-and-drop](https://blazor.syncfusion.com/documentation/file-manager/drag-and-drop?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples) support can be turned on or off in the Blazor File Manager.
 ### Access control restriction
 The Blazor File Manager provides support to restrict access to files and folders by defining a set of rules for them. Only authorized users will be able to access them.
 ### Restrict file types on upload
 You can specify the types of files that can be uploaded in the Blazor File Manager. Other file types will be restricted on upload.
 ### Multiple-file selection
-The Blazor File Manager component has built-in support for the selection of multiple files or folders. [Multiple-file selection](https://blazor.syncfusion.com/documentation/file-manager/multiple-file-selection/?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples) will be effective when a single operation like download or delete is performed over multiple files in the file system.
+The Blazor File Manager component has built-in support for the selection of multiple files or folders. [Multiple-file selection](https://blazor.syncfusion.com/documentation/file-manager/multiple-file-selection?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples) will be effective when a single operation like download or delete is performed over multiple files in the file system.
 ### Quick access menu
 The Blazor File Manager component has context menu support to list the operations to be performed with the files and folders. It appears when a file or folder is right-clicked. The context menu items can be customized according to user preference.
 ### Localization
 The text of a context menu list and the tooltips being displayed in the user interface can be localized to any supported language. The Blazor File Manager component uses a localization library (l10) to localize the text values.
 ### Web accessibility
-* Follows [WAI-ARIA](https://www.w3.org/TR/wai-aria-practices/?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples) best practices for implementing keyboard interaction.
+* Follows [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples) best practices for implementing keyboard interaction.
 * Supports right-to-left (RTL) direction for users working in right-to-left languages like Hebrew and Arabic.
 ### Built-in themes
 The Blazor File Manager layout supports several built-in themes: Material, Bootstrap, Fabric (Office 365), and high contrast. Users can customize any one of these built-in themes or create new themes to achieve their own desired look by either simply overriding the SASS variables or using our Theme Studio application.
@@ -86,13 +86,13 @@ The File Manager configuration is handled within the Blazor Server application. 
 
 ## Related links
 
-* [Learn More about Blazor File Manager](https://www.syncfusion.com/blazor-components/blazor-file-manager?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
-* [Download Free Trial](https://www.syncfusion.com/downloads?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
-* [Pricing](https://www.syncfusion.com/sales/products/blazor?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
-* [Documentation](https://blazor.syncfusion.com/documentation/file-manager/getting-started/?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
-* [Online Examples](https://blazor.syncfusion.com/demos/file-manager/overview?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
-* [Community Forums](https://www.syncfusion.com/forums/blazor-components/file-manager?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
-* [Suggest a Feature](https://www.syncfusion.com/feedback/blazor-components?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples)
+* [Learn More about Blazor File Manager](https://www.syncfusion.com/blazor-components/blazor-file-manager?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)
+* [Download Free Trial](https://www.syncfusion.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)
+* [Pricing](https://www.syncfusion.com/sales/pricing?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)
+* [Documentation](https://blazor.syncfusion.com/documentation/file-manager/getting-started-with-web-app?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)
+* [Online Examples](https://blazor.syncfusion.com/demos/file-manager/overview?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples&theme=bootstrap5)
+* [Community Forums](https://www.syncfusion.com/forums/blazor-components)
+* [Suggest a Feature](https://www.syncfusion.com/feedback/blazor-components)
 
 ## Troubleshooting
 - Ensure that the Syncfusion license key is registered correctly.
@@ -105,33 +105,19 @@ For detailed API references, configuration guidance, and advanced usage scenario
 
 ## About Syncfusion Blazor Components
 
-Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to File Manager, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), and [Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples).
+Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples) library offers over 155 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to File Manager, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [Pivot Table](https://www.syncfusion.com/blazor-components/blazor-pivot-table?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [AI AssitView](https://www.syncfusion.com/blazor-components/blazor-ai-assistview?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [Tree Grid](https://www.syncfusion.com/blazor-components/blazor-tree-grid?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples).
 
 ## About Syncfusion
 
-Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 23,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
-Today, we provide 1600+ controls and frameworks for web ([Blazor](https://www.syncfusion.com/blazor-components?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [Angular](https://www.syncfusion.com/angular-ui-components?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [React](https://www.syncfusion.com/react-ui-components?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), [Vue](https://www.syncfusion.com/vue-ui-components?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-file-manager-github-examples), and [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples)),
-mobile
-([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples),
-[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples),
-[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples),
-and
-[JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples)),
-and desktop development ([Windows
-Forms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples),
-[WPF](https://www.syncfusion.com/wpf-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples),
-[WinUI(Preview)](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples)
-and
-[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples)).
-We provide ready-to-deploy enterprise software for dashboards, reports,
-data integration, and big data processing. Many customers have saved
-millions in licensing fees by deploying our software.
+Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 38,000 customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
 
-		
+Today, we provide 1600+ controls and frameworks for web ([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [Angular](https://www.syncfusion.com/angular-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [React](https://www.syncfusion.com/react-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [Vue](https://www.syncfusion.com/vue-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), and [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)), mobile ([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), and [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)), and desktop development ([Windows Forms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [WPF](https://www.syncfusion.com/wpf-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples), [WinUI(Preview)](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples) and [UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples)). We provide ready-to-deploy enterprise software for dashboards, reports, data integration, and big data processing. Many customers have saved
+millions in licensing fees by deploying our software.
+	
 <hr style="height:0.3px;border:none;color:lightgrey;background-color:lightgrey;" />
 
 <p align="center">
-  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion Blazor Scheduler - Github" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples">www.syncfusion.com</a> | 1-888-9 DOTNET <br>
+  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion Blazor File Manager - Github" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=blazor-file-manager-github-samples">www.syncfusion.com</a> | 1-888-9 DOTNET <br>
 </p>
 
 
